@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Audio',
-      home: const SignInView(),
+      home: const HomeView(),
       theme: audioTheme,
     );
   }
