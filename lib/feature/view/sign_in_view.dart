@@ -27,14 +27,12 @@ class _SignInViewState extends State<SignInView> {
                   padding: context.padding.onlyTopNormal,
                   child: _logInSubtitle(context)),
               const Spacer(flex: 4),
-              const SizedBox(
-                  height: 50,
-                  child: CustomTextField(
-                    borderRadius: 10,
-                    hintText: 'Email',
-                    imageString: 'assets/png/ic_mail.png',
-                    filled: true,
-                  )),
+              const CustomTextField(
+                borderRadius: 10,
+                hintText: 'Email',
+                imageString: 'assets/png/ic_mail.png',
+                filled: true,
+              ),
               Padding(
                 padding: context.padding.onlyTopNormal,
                 child: const SizedBox(
