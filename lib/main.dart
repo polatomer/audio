@@ -1,4 +1,4 @@
-import 'package:audio/feature/view/home_view.dart';
+import 'package:audio/feature/view/profile_view.dart';
 import 'package:flutter/material.dart';
 import 'package:audio/product/theme/app_theme.dart';
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Audio',
-      home: const HomeView(),
+      home: const ProfileView(),
       theme: audioTheme,
     );
   }
